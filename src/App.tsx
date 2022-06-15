@@ -128,6 +128,10 @@ export const options = {
   },
 };
 
+// https://www.chartjs.org/docs/master/samples/legend/html.html
+// https://hankthemason.medium.com/using-chart-jss-legendcallback-and-generatelegend-with-react-hooks-4eb8a9f5ea4d
+// https://github.com/reactchartjs/react-chartjs-2/issues/81
+
 export default function App() {
   const [, forceUpdate] = useState<undefined | null>();
 
